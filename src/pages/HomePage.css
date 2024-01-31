@@ -1,0 +1,51 @@
+/* HomePage.css */
+.home {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .intro {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .intro {
+      height: auto;
+      padding: 20px;
+    }
+    
+    .intro h1 {
+      font-size: 2rem;
+    }
+  }
+  

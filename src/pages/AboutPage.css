@@ -1,0 +1,27 @@
+/* AboutPage.css */
+.about-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about-page h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .about-page p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Füge hier zusätzliches Styling für andere Elemente hinzu, falls benötigt. */
+  
+  @media (max-width: 768px) {
+    .about-page {
+      padding: 1rem;
+    }
+  
+    .about-page p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,55 @@
+/* Navigation.css */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .menu li a.active {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background-color: #333;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .menu--open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
